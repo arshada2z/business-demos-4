@@ -153,7 +153,7 @@ section{padding:clamp(76px,10vw,132px) 0}
 .lys{position:absolute;inset:0;transform-style:preserve-3d;transform:rotateY(var(--ry,0deg)) rotateX(var(--rx,0deg))}
 .ly{position:absolute;--r:22px;overflow:hidden;transform:translate3d(calc(var(--i)*var(--sx,0px)),calc(var(--i)*var(--sy,0px)),calc(var(--i)*var(--sz,0px)))}
 .ly.map{inset:4% 12% 10% 0;padding:8px}.ly.map iframe{width:100%;height:100%;border:0;border-radius:16px;filter:saturate(.85) contrast(1.05)}
-.ly.card{inset:50% 0 6% 40%;padding:22px 24px;display:flex;flex-direction:column;justify-content:center;gap:10px}
+.ly.card{inset:50% 0 6% 34%;padding:22px 24px;background:linear-gradient(135deg,rgba(18,58,42,.94),rgba(8,26,19,.94));display:flex;flex-direction:column;justify-content:center;gap:10px}
 .ly .row{display:flex;gap:13px;align-items:center;font-size:15px}
 .ly .row .ic{display:grid;place-items:center;width:40px;height:40px;border-radius:12px;background:var(--fill2);border:1px solid var(--rim2);color:var(--crust);flex:none}
 .ly .row small{display:block;font-size:11.5px;letter-spacing:.12em;text-transform:uppercase;color:var(--faint)}
@@ -227,12 +227,12 @@ footer .nm{font:700 20px var(--display);color:var(--ink)}
 <section id="counter"><div class="w two">
   <div>
     <span class="k" data-r>On the counter</span>
-    <h2 data-r>Baked here, <em>sliced to order</em></h2>
+    <h2 data-r>Baked fresh, <em>sliced to order</em></h2>
     <p class="lead" data-r>A bakery in front and a deli counter behind it. Come for a loaf and leave with lunch.</p>
     <a class="btn pri" href="tel:+12122266378" style="margin-top:28px" data-r>Call ahead to order</a>
   </div>
   <div class="gl fo" id="fo"><div class="lens" aria-hidden="true"></div>
-    <div class="fr"><span class="ic"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"><path d="M4 11a5 5 0 0 1 5-5h6a5 5 0 0 1 5 5v6a1 1 0 0 1-1 1H5a1 1 0 0 1-1-1z"/><path d="M9 6v4M12.500 6v4M16 6v4"/></svg></span><div><b>Fresh bread</b><small>Loaves from our own ovens.</small></div></div>
+    <div class="fr"><span class="ic"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"><path d="M4 11a5 5 0 0 1 5-5h6a5 5 0 0 1 5 5v6a1 1 0 0 1-1 1H5a1 1 0 0 1-1-1z"/><path d="M9 6v4M12.500 6v4M16 6v4"/></svg></span><div><b>Fresh bread</b><small>Loaves baked fresh.</small></div></div>
     <div class="fr"><span class="ic"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"><ellipse cx="12" cy="13" rx="8.500" ry="5.500"/><path d="M8 10.500l1.500 2M12 10l1.500 2M16 10.500l-1.500 2"/></svg></span><div><b>Rolls and heroes</b><small>The right bread for a proper sandwich.</small></div></div>
     <div class="fr"><span class="ic"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"><path d="M3 9c0-2.200 4-4 9-4s9 1.800 9 4H3z"/><path d="M3 12.500h18M4 16h16a1 1 0 0 1 1 1 2 2 0 0 1-2 2H5a2 2 0 0 1-2-2 1 1 0 0 1 1-1z"/></svg></span><div><b>Sandwiches made to order</b><small>Built at the counter while you wait.</small></div></div>
     <div class="fr"><span class="ic"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"><path d="M3 17 21 8v9a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2z"/><circle cx="9" cy="16" r="1"/><circle cx="15.500" cy="14.500" r="1.200"/></svg></span><div><b>The deli counter</b><small>Meats and cheeses, sliced the way you ask.</small></div></div>
@@ -243,7 +243,7 @@ footer .nm{font:700 20px var(--display);color:var(--ink)}
 <section style="padding-top:0"><div class="w">
   <div style="text-align:center;max-width:720px;margin:0 auto"><span class="k" data-r>Why people line up</span><h2 data-r>A real <em>neighbourhood</em> counter</h2><p class="lead" data-r style="margin:0 auto">Tap a card to bring it forward.</p></div>
   <div class="stk" id="stk"><div class="ghost" aria-hidden="true"></div>
-    <article class="gl sc"><span class="n">01</span><div class="art"><svg viewBox="0 0 48 48"><path d="M8 24c0-7 7-12 16-12s16 5 16 12v9a3 3 0 0 1-3 3H11a3 3 0 0 1-3-3z"/><path d="M17 13v8M24 12v9M31 13v8"/></svg></div><h3>Baked on Mott Street</h3><p>The bread comes out of our own ovens, not off a truck.</p></article>
+    <article class="gl sc"><span class="n">01</span><div class="art"><svg viewBox="0 0 48 48"><path d="M8 24c0-7 7-12 16-12s16 5 16 12v9a3 3 0 0 1-3 3H11a3 3 0 0 1-3-3z"/><path d="M17 13v8M24 12v9M31 13v8"/></svg></div><h3>Bread comes first</h3><p>Fresh-baked loaves and rolls are where every order starts.</p></article>
     <article class="gl sc"><span class="n">02</span><div class="art"><svg viewBox="0 0 48 48"><path d="M6 19c0-5 8-9 18-9s18 4 18 9z"/><path d="M6 25h36"/><path d="M9 31h30a2 2 0 0 1 2 2 5 5 0 0 1-5 5H12a5 5 0 0 1-5-5 2 2 0 0 1 2-2z"/><path d="M12 25c2 3 5 3 7 0s5-3 7 0 5 3 7 0"/></svg></div><h3>Made while you wait</h3><p>Every sandwich is built to order at the counter.</p></article>
     <article class="gl sc"><span class="n">03</span><div class="art"><svg viewBox="0 0 48 48"><path d="M6 20 10 9h28l4 11"/><path d="M6 20c0 3 3 5 6 5s6-2 6-5c0 3 3 5 6 5s6-2 6-5c0 3 3 5 6 5s6-2 6-5"/><path d="M10 25v14h28V25M19 39V30h10v9"/></svg></div><h3>Under the green awning</h3><p>The same shop front at 198 Mott Street. Easy to find, hard to walk past.</p></article>
   </div>
